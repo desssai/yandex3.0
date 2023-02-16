@@ -21,7 +21,7 @@ int main(int argc, char** argv) {
 			for (int i = 0; i < n; ++i) {
 				file << (rand() % k) << delimeter;
 			}
-		std::cout << "Generated " << n <<" numbers. |n| <= " << k << ". Delimeter is: '" << delimeter << "'" << std::endl;
+		std::cout << "Generated " << n <<" numbers. |n| <= " << k << ". Delimeter is: '" << delimeter << "'." << std::endl;
 		file.close();
 		}
 	}
