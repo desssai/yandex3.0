@@ -128,7 +128,7 @@ int main(void) {
 			}
 		}
 	}
-		
+
 	vertexes.clear();
 	visited[num[4].a][num[4].b][num[4].c][num[4].d] = 0;
 	vertexes.push_back(std::vector<number>());
