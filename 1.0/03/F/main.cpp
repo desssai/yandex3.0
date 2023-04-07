@@ -4,7 +4,7 @@
 
 int main(void) {
 	std::string							gen1, gen2;
-	std::vector<std::vector<int> >	matrix1;
+	std::vector<std::vector<int> >		matrix1;
 	int									n, res;
 
 	std::getline(std::cin, gen1);

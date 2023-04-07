@@ -8,7 +8,7 @@ int main(void) {
 	std::cin >> n;
 	for (int i = 0; i < n; ++i) {
 		std::cin >> a >> b;
-		if (a + b + 1 == n && TurtlesThatSayTheTruth.find(a * 100000 + b) == TurtlesThatSayTheTruth.end()) {
+		if (a > -1 && b > -1 && a + b + 1 == n && TurtlesThatSayTheTruth.find(a * 100000 + b) == TurtlesThatSayTheTruth.end()) {
 			TurtlesThatSayTheTruth.insert(a * 100000 + b);
 			res++;
 		}
