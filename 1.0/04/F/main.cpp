@@ -5,7 +5,7 @@
 int main(void) {
 	std::string													name, item;
 	std::map<std::string, std::map<std::string, long long> >	data;
-	int															n;
+	long long													n;
 
 	while (true) {
 		std::cin >> name >> item >> n;
